@@ -1,3 +1,3 @@
 git.pull:
 	git fetch
-	git push
+	git pull
