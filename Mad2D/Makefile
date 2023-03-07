@@ -3,7 +3,7 @@ NAME = Mad2DEngine
 OUTPUT = $(BIN-DIR)/$(NAME)
 SRC-DIR = ./src
 BIN-DIR = ./bin
-FILES = $(SRC-DIR)/*.cpp
+FILES = $(SRC-DIR)/*.cpp test.cpp
 COMPILER-FLAGS = -Wall -std=c++11
 LINKER-FLAGS = -lraylib
 

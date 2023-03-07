@@ -1,6 +1,12 @@
 #include "main.h"
 
 int main(){
-	cout << "Hello World!" << endl;
+	Start();
+	while(!WindowShouldClose()){
+		Update();
+	}
+	cout << generalInfo.author << endl;
+	cout << generalInfo.version << endl;
+	cout << "Goodbye!" << endl;
 	return 0;
 }
