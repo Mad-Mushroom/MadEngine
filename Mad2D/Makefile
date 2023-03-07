@@ -1,7 +1,9 @@
 COMPILER = g++
 NAME = Mad2DEngine
-OUTPUT = $(NAME)
-FILES = *.cpp
+OUTPUT = $(BIN-DIR)/$(NAME)
+SRC-DIR = ./src
+BIN-DIR = ./bin
+FILES = $(SRC-DIR)/*.cpp
 COMPILER-FLAGS = -Wall -std=c++11
 LINKER-FLAGS = -lraylib
 
