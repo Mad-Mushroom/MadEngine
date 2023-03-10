@@ -2,6 +2,7 @@
 
 void Start(){
 	setAuthor("MadMushroom");
+	setIntroAuthorDisplay(true);
 	initWindow(500, 500, "GAME");
 	Environment.CreateNewEnvironment("Test");
 }
