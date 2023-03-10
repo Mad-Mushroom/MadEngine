@@ -4,10 +4,10 @@ Environments Environment;
 
 int main(){
 	Start();
-	//displayIntro();
+	displayIntro();
 	while(!WindowShouldClose()){
 		Update();
 	}
-	cout << "Goodbye!" << endl;
+	cout << "MadEngine successfully closed." << endl;
 	return 0;
 }

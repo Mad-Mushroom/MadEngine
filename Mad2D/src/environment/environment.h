@@ -4,8 +4,6 @@
 
 using namespace std;
 
-extern int environmentsCount;
-
 class singleEnvironment {
 	public:
 		const char* name;
@@ -15,9 +13,13 @@ class singleEnvironment {
 
 class Environments {
 	public:
-		singleEnvironment environments[256];
-		void createNewEnvironment(){
-			cout << "i hate my life" << endl;
+		singleEnvironment Environments[256];
+		int EnvironmentCount;
+
+		void CreateNewEnvironment(const char* Name){
+			Environments[EnvironmentCount].name = Name;
+			Environments[EnvironmentCount].index = EnvironmentCount;
+			EnvironmentCount++;
 		}
 };
 
