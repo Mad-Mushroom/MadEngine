@@ -2,11 +2,10 @@
 
 int main(){
 	Start();
+	//displayIntro();
 	while(!WindowShouldClose()){
 		Update();
 	}
-	cout << generalInfo.author << endl;
-	cout << generalInfo.version << endl;
 	cout << "Goodbye!" << endl;
 	return 0;
 }

@@ -9,4 +9,11 @@
 
 #include "general.h"
 
+#include "properties/properties.h"
+#include "objects/object.h"
+#include "environment/environment.h"
+
 using namespace std;
+
+/* Functions */
+void displayIntro();

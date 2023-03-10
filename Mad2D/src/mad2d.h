@@ -4,6 +4,9 @@
 void Start();
 void Update();
 
+/* Console */
+void print(const char* text);
+
 /* Metadata */
 void setAuthor(const char* author);
 void setVersion(float version);
@@ -15,3 +18,6 @@ void targetFPS(int fps);
 
 /* Text Stuff */
 void displayText(const char* text, int posX, int posY, int fontSize);
+
+/* Environment */
+void createNewEnvironment(const char* name);
