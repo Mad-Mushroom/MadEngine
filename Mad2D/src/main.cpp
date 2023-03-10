@@ -1,5 +1,7 @@
 #include "main.h"
 
+Environments Environment;
+
 int main(){
 	Start();
 	//displayIntro();

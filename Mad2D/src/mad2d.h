@@ -1,4 +1,5 @@
 #pragma once
+#include "main.h"
 
 /* General */
 void Start();
@@ -18,6 +19,3 @@ void targetFPS(int fps);
 
 /* Text Stuff */
 void displayText(const char* text, int posX, int posY, int fontSize);
-
-/* Environment */
-void createNewEnvironment();
