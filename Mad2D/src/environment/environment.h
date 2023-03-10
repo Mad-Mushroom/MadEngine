@@ -38,7 +38,7 @@ class Environments {
 		}
 
 		singleEnvironment GetEnvironmentByIndex(int Index){
-			return Environment.Environments[Index];
+			return Environments[Index];
 		}
 };
 
