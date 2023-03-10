@@ -13,8 +13,8 @@ class singleEnvironment {
 		Object objects[256];
 
 		/* Functions */
-		void AddObject(const char* Name, type ObjectType){
-
+		void AddObject(const char* Name){
+			cout << Name << endl;
 		}
 };
 
@@ -29,6 +29,16 @@ class Environments {
 			Environments[EnvironmentCount].name = Name;
 			Environments[EnvironmentCount].index = EnvironmentCount;
 			EnvironmentCount++;
+		}
+
+		singleEnvironment GetEnvironmentByName(const char* Name){
+			for(int i=0; i<EnvironmentCount; i++){
+				if(Environments[i].name == Name) return Environments[i];
+			}
+		}
+
+		singleEnvironment GetEnvironmentByIndex(int Index){
+			return Environment.Environments[Index];
 		}
 };
 
