@@ -20,4 +20,4 @@ void targetFPS(int fps);
 void displayText(const char* text, int posX, int posY, int fontSize);
 
 /* Environment */
-void createNewEnvironment(const char* name);
+void createNewEnvironment();

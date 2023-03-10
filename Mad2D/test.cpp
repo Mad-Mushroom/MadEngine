@@ -3,7 +3,7 @@
 void Start(){
 	setAuthor("MadMushroom");
 	initWindow(500, 500, "GAME");
-	createNewEnvironment("Hi");
+	createNewEnvironment();
 }
 
 void Update(){

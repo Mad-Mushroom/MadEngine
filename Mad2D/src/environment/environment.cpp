@@ -1,5 +1,5 @@
 #include "environment.h"
 
-void createNewEnvironment(const char* name){
-	cout << "finally?" << endl;
+void createNewEnvironment(){
+	cout << "FUCK THIS BULLSHIT!" << endl;
 }
