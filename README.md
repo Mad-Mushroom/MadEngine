@@ -29,4 +29,4 @@ Mad2D does not have that much features.
 
 ## License
 
-This game engine is licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU Generic Public License</a>
+This game engine is licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU Generic Public License</a>.
