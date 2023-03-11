@@ -7,14 +7,23 @@ using namespace std;
 class singleEnvironment {
 	public:
 		/* Variables */
-		const char* name;
+		const char* Name;
 		int index;
 		int ObjectCount;
-		Object objects[256];
+		singleObject Objects[256];
 
 		/* Functions */
-		void AddObject(const char* Name){
-			cout << Name << endl;
+		void AddObject(const char* Name, ObjectTypes ObjectType){
+			Objects[ObjectCount].ObjectType = ObjectType;
+			Objects[ObjectCount].Name = Name;
+			Objects[ObjectCount].index = ObjectCount;
+			ObjectCount++;
+		}
+
+		singleObject GetObjectbyName(const char* Name){
+			for(int i=0; i<ObjectCount; i++){
+				if(Objects[i].Name == Name) return Objects[i];
+			}
 		}
 };
 
@@ -26,14 +35,18 @@ class Environments {
 
 		/* Functions */
 		void CreateNewEnvironment(const char* Name){
-			Environments[EnvironmentCount].name = Name;
+			Environments[EnvironmentCount].Name = Name;
 			Environments[EnvironmentCount].index = EnvironmentCount;
+			Environments[EnvironmentCount].Objects[0].ObjectType = ObjectTypes::Empty;
+			Environments[EnvironmentCount].Objects[0].Name = "test";
+			Environments[EnvironmentCount].Objects[0].index = 0;
+			Environments[EnvironmentCount].ObjectCount = 1;
 			EnvironmentCount++;
 		}
 
 		singleEnvironment GetEnvironmentByName(const char* Name){
 			for(int i=0; i<EnvironmentCount; i++){
-				if(Environments[i].name == Name) return Environments[i];
+				if(Environments[i].Name == Name) return Environments[i];
 			}
 		}
 
