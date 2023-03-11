@@ -9,7 +9,7 @@ A Game Engine written in C/C++.
 | Overview |
 | -------- |
 | Environments | *like Scenes in Unity* |
-| ↓ |
+| ↓ | |
 | Objects | *like objects in any other engine* |
-| ↓ |
+| ↓ | |
 | Properties | *just properties of the object* |
