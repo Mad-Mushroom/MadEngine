@@ -6,12 +6,10 @@ A Game Engine written in C/C++.
 
 ## Functionality
 
-Every projects has *Environments* with *Objects* and *Properties* in objects.
-
 | Overview |
 | -------- |
-| Environments |
+| Environments | *like Scenes in Unity* |
 | ↓ |
-| Objects |
+| Objects | *like objects in any other engine* |
 | ↓ |
-| Properties |
+| Properties | *just properties of the object* |
