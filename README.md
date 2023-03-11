@@ -6,8 +6,8 @@ A Game Engine written in C/C++.
 
 ## Functionality
 
-| Overview |
-| -------- |
+| Overview | Description |
+| -------- | ----------- |
 | Environments | *like Scenes in Unity* |
 | ↓ | |
 | Objects | *like objects in any other engine* |
