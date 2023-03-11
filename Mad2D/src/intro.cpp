@@ -1,6 +1,6 @@
 #include "main.h"
 
-void setIntroDisplay(bool displayIntro){
+void showIntro(bool displayIntro){
 	if(displayIntro) generalInfo.introType = 1;
 	if(!displayIntro) generalInfo.introType = 0;
 }

@@ -18,7 +18,7 @@ void initWindow(int sizeX, int sizeY, const char* title);
 void targetFPS(int fps);
 
 /* Intro Stuff */
-void setIntroDisplay(bool displayIntro);
+void showIntro(bool displayIntro);
 void setIntroAuthorDisplay(bool displayAuthor);
 
 /* Text Stuff */

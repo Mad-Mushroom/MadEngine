@@ -18,7 +18,7 @@ class singleEnvironment {
 			Objects[ObjectCount].Name = Name;
 			Objects[ObjectCount].index = ObjectCount;
 			ObjectCount++;
-			cout << Objects[0].Name << endl;
+			cout << ObjectCount << endl;
 		}
 
 		singleObject GetObjectbyName(const char* Name){
@@ -38,10 +38,6 @@ class Environments {
 		void CreateNewEnvironment(const char* Name){
 			Environments[EnvironmentCount].Name = Name;
 			Environments[EnvironmentCount].index = EnvironmentCount;
-			//Environments[EnvironmentCount].Objects[0].ObjectType = ObjectTypes::Empty;
-			//Environments[EnvironmentCount].Objects[0].Name = "test";
-			//Environments[EnvironmentCount].Objects[0].index = 0;
-			//Environments[EnvironmentCount].ObjectCount = 1;
 			EnvironmentCount++;
 		}
 
