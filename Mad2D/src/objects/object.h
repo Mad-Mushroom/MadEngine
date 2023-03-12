@@ -2,14 +2,17 @@
 
 #include "../main.h"
 
-enum types {
+using namespace std;
+
+enum ObjectTypes {
 	Empty,
 	Sprite
 };
 
-class Object {
+class singleObject {
 	public:
 		const char* Name;
 		int index;
-		Properties objectProperties;
+		ObjectTypes ObjectType;
+		Properties ObjectProperties;
 };
