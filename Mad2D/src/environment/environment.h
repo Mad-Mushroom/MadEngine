@@ -9,8 +9,8 @@ class singleEnvironment {
 		/* Variables */
 		const char* Name;
 		int index;
-		int ObjectCount;
 		singleObject Objects[256];
+		int ObjectCount;
 
 		/* Functions */
 		void AddObject(const char* Name, ObjectTypes ObjectType){
